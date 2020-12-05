@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import { Route, BrowserRouter, Switch } from 'react-router-dom';
+import injectContext from './store/appContext';
+import Home from './views/home';
 
-function App() {
+const App = props => {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path='/' component={Home} /*RESPONSIVE*/ /> 
+        </Switch>
+      </BrowserRouter>
+    </>
+  )
 }
-
-export default App;
+ 
+export default injectContext(App);
