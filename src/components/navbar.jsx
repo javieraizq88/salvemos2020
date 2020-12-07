@@ -69,7 +69,7 @@ const Navbar = props => {
                                     </div>
 
                                 </li><li class="has-submenu">
-                                    <a class="dropdown-item" target="_blank" href="https://www.gcloud.cl/bch_mc/front/?sw=personas_2020">
+                                    <a class="dropdown-item" href="#">
                                         Agradecimientos
                                                     </a>
                                     <div class="navsubmenu dropdown-menu align-self-stretch">
