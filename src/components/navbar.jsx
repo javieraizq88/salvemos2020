@@ -29,7 +29,6 @@ const Navbar = props => {
                                 <li class="has-submenu">
                                     <a class="dropdown-item" href="#">
                                         Bono Escolaridad Trabajador
-		                                                <i class="bch-pyo-icon-arrow-right mr-n2" ></i>
                                     </a>
                                     <div class="navsubmenu dropdown-menu align-self-stretch">
                                         <div class="row no-gutters flex-fill">
@@ -56,13 +55,13 @@ const Navbar = props => {
                                                 <h6 class="title">Evaluación y Retro Ágil</h6>
                                                 <ul class="list-unstyled">
                                                     <li class="pl-0">
-                                                        <a href="../../evaluacion/retroAgil/evaluacion">Evaluación Ágil</a>
+                                                        <a href="#">Evaluación Ágil</a>
                                                     </li>
                                                     <li class="pl-0">
-                                                        <a href="../../evaluacion/retroAgil/solicitudRetro">Retro Ágil</a>
+                                                        <a href="#">Retro Ágil</a>
                                                     </li>
                                                     <li class="pl-0">
-                                                        <a href="../../evaluacion/reports/">Reportes Evaluaciones y Retro Ágil</a>
+                                                        <a href="#">Reportes Evaluaciones y Retro Ágil</a>
                                                     </li>
                                                 </ul>
                                             </div>
